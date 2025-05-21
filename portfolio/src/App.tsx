@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
+import Title from "./components/Title";
 
 function App() {
   return (
@@ -8,8 +9,10 @@ function App() {
         <div className="navbar-container">
           <NavBar />
         </div>
-        <div className="website-container"></div>
-        <div className="content-container">hello world</div>
+        <div className="website-container">
+          <Title />
+        </div>
+        <div className="content-container"></div>
       </div>
     </>
   );
