@@ -3,6 +3,9 @@ import "./App.css";
 import Title from "./components/Title";
 import AboutMe from "./components/AboutMe";
 import Github from "./components/GitHub";
+import RawgClone from "./components/RawgClone";
+import SolarPanel from "./components/SolarPanel";
+import StarDrifter from "./components/StarDrifter";
 
 function App() {
   return (
@@ -15,10 +18,17 @@ function App() {
           <Title />
         </div>
         <div className="content-container">
-          <AboutMe />
+          <div className="left-side-content-container">
+            <AboutMe />
+          </div>
           <div className="right-side-content-container">
-            <Github />
-            <div className="portfolio-projects-container"></div>
+            
+            <div className="github-container-main-page"><Github/></div>
+            <div className="portfolio-projects-container">
+              <RawgClone />
+              <SolarPanel />
+              <StarDrifter />
+            </div>
           </div>
         </div>
       </div>

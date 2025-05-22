@@ -1,0 +1,25 @@
+.project-container{
+    background-color:green;
+    width: 30vw;
+    height: 30vh;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+   
+}
+
+.project-text{
+  color: white;
+  background-color: red;
+  text-align: center;
+  justify-content: center;
+}
+
+.rawg-clone-container{
+  background-color: black;
+
+}
+
+.rawg-text{
+    
+}
