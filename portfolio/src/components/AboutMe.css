@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.about-me-container{
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+.card-img-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.card-img{
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    display: block;
+}
+
+
+
+.card-img-overlay{
+    width: 200px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(242, 175, 188, 0.3);
+    position: absolute;
+    justify-content: center;
+    backdrop-filter: blur(8px); /* Add this line for blur */
+    -webkit-backdrop-filter: blur(8px); /* For Safari support */
+    border-radius: 25px; 
+    padding: 20px;
+    padding-bottom: 35px;
+    
+   
+}
+
+.card-text-container{
+    background-color: white;
+    border-radius: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+   
+  
+}
+
+.card-title{
+    font-family: "Bebas Neue", sans-serif;
+     position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003049;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.card-text{
+    margin: 1px;
+}
+
+
+
+

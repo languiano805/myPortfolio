@@ -1,6 +1,8 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
 import Title from "./components/Title";
+import AboutMe from "./components/AboutMe";
+
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <div className="website-container">
           <Title />
         </div>
-        <div className="content-container"></div>
+        <div className="content-container">
+          <AboutMe />
+        </div>
       </div>
     </>
   );
