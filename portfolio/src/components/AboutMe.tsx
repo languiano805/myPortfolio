@@ -12,6 +12,7 @@ const AboutMe = () => {
             <p className="card-text">
               Building my skills one line of code at a time.
             </p>
+            <div className="corner-square"></div>
           </div>
         </div>
       </div>

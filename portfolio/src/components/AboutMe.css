@@ -24,7 +24,7 @@
 
 
 .card-img-overlay{
-    width: 200px;
+    width: 300px;
     height: 100px;
     top: 20px;
     left: 20px;
@@ -43,6 +43,7 @@
 .card-text-container{
     background-color: white;
     border-radius: 20px;
+    border-bottom-right-radius: 0;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -52,8 +53,12 @@
     flex-direction: column;
     align-items: left;
     padding: 20px;
-   
-  
+    overflow: hidden;
+    position: relative;
+    clip-path: path;
+    width: 300px;
+    height: 120px;
+     clip-path: path('M 0 0 L 300 0 L 300 70 A 10 10 0,0,1 295 75  L 265 75 A 10 10 0,0,0 255 85 L 255 115 A 10 10 0,0,1 247 120 L 0 120  Z');
 }
 
 .card-title{
@@ -65,10 +70,25 @@
     background-color: white;
     border-radius: 10px;
     margin: 0;
+   
 }
 
 .card-text{
     margin: 1px;
+    width: 80%;
+    
+}
+
+.corner-square{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 175, 188);
+    border-radius: 10px;
+    backdrop-filter: blur(8px); /* Add this line for blur */
+    -webkit-backdrop-filter: blur(8px); /* For Safari support */
 }
 
 
