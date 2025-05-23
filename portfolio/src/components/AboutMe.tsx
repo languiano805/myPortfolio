@@ -25,7 +25,19 @@ const AboutMe = () => {
             </button>
             {showPopup && (
               <div className="popup">
-                <span>Hello, I'm Leonardo Anguiano!</span>
+                <span>
+                  I’m a full stack developer with a B.S. in Computer Science
+                  from California State University, Sacramento. I enjoy building
+                  clean, efficient, and user-centered software from front-end
+                  interfaces to back-end systems. My experience spans
+                  technologies like JavaScript, Python, Java, SQL, and
+                  frameworks such as Node.js, Express, and Unity. Whether it's
+                  designing web apps or analyzing solar energy data, I'm
+                  passionate about solving real-world problems through code. I'm
+                  always learning, always building and looking for
+                  opportunities to grow with teams that value curiosity,
+                  collaboration, and impact.
+                </span>
                 <button
                   className="close-btn"
                   onClick={() => setShowPopup(false)}

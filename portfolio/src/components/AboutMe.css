@@ -146,7 +146,9 @@
   z-index: 20;
   display: flex;
   align-items: center;
-  gap: 10px;
+gap: 10px;
+width: 340px;
+bottom: 40px;
 }
 
 .close-btn {
