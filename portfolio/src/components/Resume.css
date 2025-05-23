@@ -42,15 +42,37 @@
 .resume-download-container{
     background-color: #b11e31;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-left: -10px;
     align-items: center;
     justify-content: center;
     display: flex;
+    margin-top: 5px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    
     
 }
 
+.resume-download-container:hover .resume-download-text{
+    background-color: #b11e31;
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    transform: scale(1.05);
+
+}
+
+
+
 .resume-download-text{
+    /* color: #b11e31; */
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
