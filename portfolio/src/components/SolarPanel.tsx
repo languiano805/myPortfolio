@@ -1,5 +1,5 @@
 import "./ProjectComponent.css";
-import solarPanel from "../assets/solarPanel2.jpg";
+import solarPanel from "../assets/solarPanel3.jpg";
 
 const SolarPanel = () => {
   return (

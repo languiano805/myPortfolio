@@ -24,18 +24,20 @@
 }
 
 .navbar-links{
-    background-color: black;
-    padding: 10px;
-    border-radius: 100px;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    border: black solid 1px;
-    box-shadow: 1px 0px 2px  rgb(160, 149, 149);
+    margin-bottom: 5px;
   
 }
 
 .navbar-icon{
    color:white;
+   background-color: black;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    /* border: black solid 1px; */
+    box-shadow: 1px 0px 2px  rgb(160, 149, 149);
 }
 

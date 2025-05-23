@@ -6,6 +6,7 @@ import Github from "./components/GitHub";
 import RawgClone from "./components/RawgClone";
 import SolarPanel from "./components/SolarPanel";
 import StarDrifter from "./components/StarDrifter";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           </div>
           <div className="right-side-content-container">
             
-            <div className="github-container-main-page"><Github/></div>
+            <div className="content-container-resume"><Resume/></div>
             <div className="portfolio-projects-container">
               <RawgClone />
               <SolarPanel />

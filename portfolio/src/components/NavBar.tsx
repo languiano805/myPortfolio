@@ -1,5 +1,6 @@
 import "./NavBar.css";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -13,6 +14,12 @@ const NavBar = () => {
           className="navbar-link"
         >
           <FaLinkedin className="navbar-icon" />
+        </a>
+        <a
+          href="https://github.com/languiano805"
+          className="navbar-link"
+        >
+         <FaGithub className="navbar-icon" />
         </a>
       </div>
     </div>

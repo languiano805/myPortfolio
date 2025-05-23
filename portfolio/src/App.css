@@ -54,19 +54,15 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:80%;
-    height: 100%;
-    margin: 10px;
+    width: 47.5vw;
+    height: 30vh;
+    margin-top: 20px;
    
 }
 
-.github-container-main-page{
-    display: flex;
-    border-radius: 20px;
-    box-sizing: border-box;
-    background-color: black;
-    position: relative;
-    width: 47vw;
-    height:30vh;
-}
 
+.content-container-resume{
+    border: black solid 1px;
+    width: 78%;
+    height: 27vh;
+}
