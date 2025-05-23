@@ -18,7 +18,7 @@ function App() {
         <div className="website-container">
           <Title />
         </div>
-        <div className="content-container">
+        <div className="content-container ">
           <div className="left-side-content-container">
             <AboutMe />
           </div>
