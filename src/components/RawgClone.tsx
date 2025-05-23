@@ -1,5 +1,4 @@
 import "./ProjectComponent.css";
-import rawgImage from "../assets/rawg-clone-img.png";
 
 const RawgClone = () => {
   return (

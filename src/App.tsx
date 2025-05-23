@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import "./App.css";
 import Title from "./components/Title";
 import AboutMe from "./components/AboutMe";
-import Github from "./components/GitHub";
+
 import RawgClone from "./components/RawgClone";
 import SolarPanel from "./components/SolarPanel";
 import StarDrifter from "./components/StarDrifter";

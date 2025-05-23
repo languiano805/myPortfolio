@@ -1,4 +1,4 @@
-import "./ProjectComponent.css"
+import "./ProjectComponent.css";
 import EarthPhoto from "../assets/earth.jpg";
 
 const StarDrifter = () => {
@@ -8,7 +8,9 @@ const StarDrifter = () => {
         src={EarthPhoto}
         className="star-drifter-img"
         alt="Star Drifter Logo"
-        onClick={() => window.open("")}
+        onClick={() =>
+          window.open("https://languiano805.github.io/star-drifter/")
+        }
       />
     </div>
   );
