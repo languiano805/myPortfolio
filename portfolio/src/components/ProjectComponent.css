@@ -20,6 +20,25 @@
 
 }
 
-.rawg-text{
-    
+.solar-panel-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  align-self: center;
 }
+
+.rawg-clone-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  align-self: center;
+  justify-content: center;
+
+}
+
+.project-container:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+

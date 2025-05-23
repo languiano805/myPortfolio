@@ -15,18 +15,18 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: clamp(2rem, 15vw, 10rem); /* Responsive font size */
+  font-size: clamp(1rem, 15vw, 8rem); /* Responsive font size */
   width: 100%;
   text-align: center;
   overflow-wrap: break-word; /* Wraps text if too long */
-  color: #9E182B;
+ 
   
 
 }
 
 .blockquote-footer{
-    align-self: flex-end;
+    align-self: center;
     margin-right: 90px;
-    color: #003049
+    color:black;
 
 }
