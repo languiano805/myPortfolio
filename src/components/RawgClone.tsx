@@ -3,7 +3,7 @@ import "./ProjectComponent.css";
 const RawgClone = () => {
   return (
     <div
-      className="rawg-clone-container project-container"
+      className="rawg-clone-container project-container "
       onClick={() => {
         window.open("https://languiano805.github.io/rawg-clone/");
       }}
