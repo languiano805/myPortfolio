@@ -8,7 +8,7 @@ const RawgClone = () => {
         window.open("https://languiano805.github.io/rawg-clone/");
       }}
     >
-      <div className="rawg-clone-text project-text">RAWG Clone</div>
+      <div className="rawg-clone-text project-text ">RAWG Clone</div>
     </div>
   );
 };
