@@ -18,10 +18,11 @@
 
 .resume-content{
     color: white;
-    padding: 10px;
     font-family: 'Poppins', sans-serif;
     text-transform:uppercase;
-    font-size: clamp(0.0001rem, 8vw, 1rem); /* Responsive font size */
+    font-size: clamp(1rem, 8vw, 1vw); /* Responsive font size */
+    margin : 10px;
+   
 }
 
 .cutout{
@@ -78,4 +79,44 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    .resume-download-text {
+        font-size: 1vw;
+    
+    }
+
+    .resume-download-container {
+        padding: 0 6px;
+        min-width: 70px;
+    }
+
+
+    .resume-content {
+        font-size: 2vw;
+        padding: 7px;
+        word-break: break-word;
+        white-space: normal;
+    }
+
+    .resume-text {
+        font-size: 5vw;
+        padding: 7px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+        .resume-content{
+            margin-top: 40px;
+        }
+
+
+}
+
+
+.resume-download-text {
+    font-size: clamp(1rem, 5vw, 2rem);
 }
