@@ -66,3 +66,22 @@ html, body {
     width: 78%;
     height: 27vh;
 }
+
+@media (max-width: 900px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .right-side-content-container,
+    .left-side-content-container {
+        width: 90vw;
+        height: auto;
+        margin: 10px 0;
+    }
+    .portfolio-projects-container {
+        width: 90vw;
+        flex-direction: column;
+        height: auto;
+    }
+}

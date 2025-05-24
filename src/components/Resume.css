@@ -12,7 +12,7 @@
 .resume-text{
     color: white;
     font-family: 'Bebas Neue', cursive;
-    font-size: 5rem;
+    font-size: clamp(2rem, 8vw, 5rem); /* Responsive font size */
     padding: 10px;
 }
 
@@ -21,6 +21,7 @@
     padding: 10px;
     font-family: 'Poppins', sans-serif;
     text-transform:uppercase;
+    font-size: clamp(0.0001rem, 8vw, 1rem); /* Responsive font size */
 }
 
 .cutout{
