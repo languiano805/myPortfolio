@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: black solid 1px;
+    padding: 10px;
 
 
 }
@@ -14,7 +15,7 @@
 
 .navbar-brand {
     font-family: 'Bebas Neue', cursive;
-    font-size: 3rem;
+    font-size: clamp(0.5vw, 8vw, 3rem); /* Responsive font size */
     font-weight: bold;
    color: black;
     text-decoration: none;
@@ -39,5 +40,12 @@
     margin: 10px;
     /* border: black solid 1px; */
     box-shadow: 1px 0px 2px  rgb(160, 149, 149);
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between icons as needed */
 }
 
